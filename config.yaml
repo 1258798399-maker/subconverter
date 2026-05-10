@@ -1,0 +1,8 @@
+proxies:
+  - name: "我的原始订阅"
+    url: "https://edgetunnel.1258798399.workers.dev/sub？token=c63680a9df5b1d285390f96a5f543771"
+
+target: clash       # 输出 Clash 格式
+filter:
+  latency: <200     # 只保留延迟小于 200ms 的节点
+  packet_loss: <1%  # 丢包低于 1%
